@@ -260,9 +260,9 @@ button:focus {
   margin-bottom: 20px;
 }
 .col-img-about {
-  background-image: url(../img/about.jpg);
+  background-image: url(../img/me.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: 50vh;
   background-position: center;
 }
@@ -295,13 +295,12 @@ button:focus {
 .projects-section a {
   font-weight: 700;
   border-bottom: 3px solid #e9224d;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
 }
 .projects-section a:hover {
-  color: #213546;
-  border-bottom: 3px solid transparent;
+  color: #e9224d;
 }
 .projects-section p {
   padding-right: 67px;
@@ -425,6 +424,9 @@ button:focus {
   padding-bottom: 10px;
   color: #000000;
   font-weight: 700;
+}
+.footer .footer-top ul li a.hover-link {
+  padding-top: 0;
 }
 .footer .footer-top ul li a:last-child {
   padding-bottom: 0;
